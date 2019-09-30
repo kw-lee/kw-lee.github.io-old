@@ -7,7 +7,7 @@ script:
 
 deploy:
    local_dir: public    # hugo build output path
-   repo: kw-lee.github.io  # target repo
+   repo: kw-lee/kw-lee.github.io  # target repo
    target_branch: master
    provider: pages
    skip_cleanup: true
