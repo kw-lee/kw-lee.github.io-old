@@ -1,4 +1,8 @@
 baseURL = "https://kw-lee.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Kyeongwon Lee's Blog"
 theme = "engimo"
+
+[author]
+	name = "Kyeongwon Lee"
+	email = "lkw1718@snu.ac.kr"
