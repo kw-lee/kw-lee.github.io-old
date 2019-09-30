@@ -1,6 +1,3 @@
 [submodule "themes/engimo"]
 	path = themes/engimo
 	url = https://github.com/achary/engimo.git
-[submodule "public"]
-	path = public
-	url = https://github.com/kw-lee/kw-lee.github.io.git
