@@ -4,9 +4,15 @@ install:
   - sudo dpkg -i hugo_0.58.3_Linux-64bit.deb
 script:
   - hugo
+
 deploy:
-  - provider: script
-    script: ./deploy.sh
-    skip_cleanup: true
-    on:
+   local_dir: public    # hugo build output path
+   repo: kw-lee.github.io  # target repo
+   target_branch: master
+   provider: pages
+   skip_cleanup: true
+   github_token: $GITHUB_TOKEN
+   email: lkw1718@snu.ac.kr
+   name: Kyeongwon Lee
+   on:
       branch: master
