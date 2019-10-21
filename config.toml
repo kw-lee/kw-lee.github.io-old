@@ -121,11 +121,25 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
-[[menu.main]]
-name = "Repo"
-weight = -10
-identifier = "repository"
-url = "https://github.com/kw-lee/blog"
+[menu]
+
+	[[menu.main]]
+	name = "About"
+	weight = -30
+	identifier = "about"
+	url = "/about"
+
+	[[menu.main]]
+	name = "Pages"
+	weight = -20
+	identifier = "pages"
+	url = "/pages"
+
+	[[menu.main]]
+	name = "Repo"
+	weight = -10
+	identifier = "repository"
+	url = "https://github.com/kw-lee/blog"
 
 [blackfriday]
 hrefTargetBlank = true
