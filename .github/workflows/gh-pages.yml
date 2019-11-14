@@ -3,7 +3,9 @@ name: github pages
 on:
   push:
     branches:
-    - master
+    - source  # default branch
+
+PUBLISH_BRANCH: master  # deploying branch
 
 jobs:
   build-deploy:
@@ -26,5 +28,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./public
+        PUBLISH_BRANCH: master
