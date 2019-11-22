@@ -4,7 +4,6 @@ title = "KWLee's Blog"
 # for smart copyright line, leave this blank and check [params.copyright]
 # copyright = ""
 
-# theme = "engimo"
 theme = "hugo-hello-programmer-theme"
 
 disqusShortname = ""
@@ -29,7 +28,14 @@ DefaultContentLanguage = "en"
 [params]
 	description = "Home"
 
+# [taxonomies]
+# 	category = "categories"
+# 	tag = "tags"
+# 	subcategory = "subcategories"
+
 # favicon = "favicon.ico"
 # customCSS = ["css/custom.css"]
 # customJS = ["js/custom.js"]
 # gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+summaryLength = 30

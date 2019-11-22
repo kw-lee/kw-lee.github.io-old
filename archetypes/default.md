@@ -5,5 +5,6 @@ date: {{ .Date }}
 categories: []
 tags: []
 cover: ""
+toc: true
 draft: true
 ---

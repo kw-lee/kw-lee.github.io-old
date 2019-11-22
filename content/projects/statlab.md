@@ -5,6 +5,7 @@ date: 2019-10-21T23:18:00+09:00
 categories: ["projects"]
 tags: ["pages", "stat", "TA"]
 cover: ""
+toc: false
 draft: false
 ---
 
