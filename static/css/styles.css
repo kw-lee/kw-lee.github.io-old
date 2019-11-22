@@ -416,12 +416,11 @@ img {
   height: 100px;
 }
 
+/* Footer */
 .footer {
-  height: 105px;
-  margin-top: -105px;
-  /* padding-top: 5px; */
-  background: #536C8D;
-  /* padding: 10px; */
+  margin-top: 6em;
+  background: white;
+  padding: 30px;
   color: #c7c7c7;
   font-size: 0.7em;
   text-align: center;

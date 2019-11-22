@@ -22,8 +22,8 @@ enableEmoji = true
 DefaultContentLanguage = "en"
 
 [author]
-	name = "Kyeogwon Lee"
-	email = "lkw1718@snu.ac.kr"
+	name = "kw-lee"
+	email = "kwlee1718@gmail.com"
 
 [params]
 	description = "Home"
