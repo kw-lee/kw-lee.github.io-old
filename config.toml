@@ -47,6 +47,14 @@ enableEmoji = true
         name = "Blog"
         url = "https://kw-lee.github.io/blog"
         title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "CV"
+        pre = ""
+        post = ""
+        name = "CV"
+        url = "/cv/"
+        title = ""
         weight = 4
       [[languages.en.menu.main]]
         identifier = "about"
