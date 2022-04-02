@@ -48,13 +48,18 @@ We proposed an end-to-end deep learning model combining Bayesian neural network 
 
 # Skills and Other Informations
 
-## Programming Languages:
+## Programming Languages
 
 * R
 * Python
 * C++
 * Julia
 * Stan
+
+## Natural Languages
+
+* Korean: mother tongue
+* English
 
 ## Technical Skills
 
